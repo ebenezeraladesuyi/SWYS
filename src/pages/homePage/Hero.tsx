@@ -10,7 +10,7 @@ const Hero = () => {
 
         <div className="absolute bg-black w-full h-full opacity-50"></div>
 
-        <div className="w-[85%] z-10 flex flex-col mt-[40px] md:mt-[60px] lg:mt-[50px]">
+        <div className="w-[85%] z-10 flex flex-col mt-[25px] md:mt-[60px] lg:mt-[50px]">
             <div className="w-full mb-[30px]">
                 <h2 className="text-white text-[35px] md:text-[45px] lg:text-[60px] text-center font-semibold">
                     SOUTH WEST YOUTH SUMMIT 2.0
