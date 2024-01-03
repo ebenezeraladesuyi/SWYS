@@ -1,4 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Countdown from "../../components/static/Countdown";
+import Typewriter from 'typewriter-effect';
 
 
 const Hero = () => {
@@ -17,7 +19,37 @@ const Hero = () => {
                 </h2>
 
                 <h3 className="text-white text-[15px] md:text-[17px] lg:text-[20px] font-semibold text-center">
-                    <span className="text-orange-300 text-[13px] md:text-[15px] lg:text-[18px]">THEME: </span>QUEST FOR THE BEST
+                    <span className="text-orange-300 text-[13px] md:text-[15px] lg:text-[18px]">THEME: </span>
+                    {/* QUEST FOR THE BEST */}
+                    <span>
+                        <Typewriter
+                            options={{ loop: true }}
+                            onInit={(typewriter: any) => {
+                            typewriter
+
+                                .typeString("QUEST")
+                                .pauseFor(1500)
+                                .deleteAll()
+
+                                .typeString("FOR")
+                                .pauseFor(1500)
+                                .deleteAll()
+
+                                .typeString("THE")
+                                .pauseFor(1500)
+                                .deleteAll()
+
+                                .typeString("BEST")
+                                .pauseFor(1500)
+                                .deleteAll()
+
+                                .typeString("QUEST FOR THE BEST")
+                                .pauseFor(1500)
+                                .deleteAll()
+                                .start();
+                            }}
+                        />
+                    </span>
                 </h3>
             </div>
 

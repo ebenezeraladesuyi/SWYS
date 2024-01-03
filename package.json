@@ -18,7 +18,8 @@
     "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^6.21.1",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
