@@ -15,7 +15,7 @@ const AboutCard:React.FC<iAbout> = ({title, content1, content2, content3, conten
   return (
     <div className='w-full font-mont text-center'>
 
-        <h3 className='mb-[20px] mt-[30px] text-[17px] md:text-[20px] lg:text-[25px] text-[#00a4f2] font-semibold text-center'>
+        <h3 className='mb-[20px] mt-[30px] text-[17px] md:text-[20px] lg:text-[25px] text-[#00a4f2] font-semibold text-center animate-bounce'>
             {/* AIMS and OBJECTIVES OF THE SUMMIT */}
             {title}
         </h3> 
