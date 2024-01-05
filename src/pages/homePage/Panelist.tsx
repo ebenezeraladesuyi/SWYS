@@ -62,7 +62,7 @@ const Panelist = () => {
     <div id="panelists" className="w-full h-[100vh  flex justify-center items-center font-mont bg-gray-100 bg-center bg-cover relative py-[20px]">
         <div className="w-[85%] flex flex-col justify-center items-center">
 
-            <h5 className="font-semibold text-[#00a4f2] text-[16px] md:text-[26px] lg:text-[30px] mb-[20px] mt-[10px] border-b-[3px border-b-[#00a4f2] animate-bounce">OUR PANELISTS</h5>
+            <h5 className="font-semibold text-[#00a4f2] text-[16px] md:text-[26px] lg:text-[27px] mb-[20px] mt-[10px] border-b-[3px border-b-[#00a4f2] animate-bounce">OUR PANELISTS</h5>
 
             <div className="w-full">
 

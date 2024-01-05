@@ -4,6 +4,7 @@
 import About from "./About"
 import Hero from "./Hero"
 import Panelist from "./Panelist"
+import Photos from "./Photos"
 import Register from "./Register"
 import Speakers from "./Speakers"
 
@@ -15,6 +16,7 @@ const HomeComp = () => {
         <Speakers />
         <Panelist />
         <Register />
+        <Photos />
     </div>
   )
 }
