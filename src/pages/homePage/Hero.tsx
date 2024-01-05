@@ -56,6 +56,12 @@ const Hero = () => {
             <div className="w-full flex gap-3 items-center justify-center">
                 <Countdown targetDate={targetDate} />
             </div>
+
+            <div className="text-[12px] lg:text-[14px] text-orange-300 text-center  mt-[20px] font-semibold">
+                <h6>Date: <span className="text-white text-[14px] lg:text-[16px]">Friday, 26th January, 2024</span></h6>
+                <h6>Venue: <span className="text-white lg:text-[16px] text-[14px]">June 12 Cultural Center, Kuto, Abeokuta, Ogun State.</span></h6>
+                <h6>Time: <span className="text-white lg:text-[16px] text-[14px]">9am Prompt</span></h6>
+            </div>
         </div>
     </div>
   )

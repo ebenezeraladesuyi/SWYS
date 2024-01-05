@@ -19,22 +19,27 @@ const Headerr = () => {
             </div>
             
             <div>
-                <li className="hidden md:flex items-center gap-5">
+                <li className="hidden lg:flex items-center gap-5">
                     <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>Home</ol>
                     <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>About</ol>
-                    <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>News</ol>
                     <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>Speakers</ol>
+                    <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>Panelist</ol>
+                    <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>News</ol>
                     <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>Sponsors</ol>
+
+                    <button className=' px-3 py-2 bg-orange-400 border-none hover:bg-orange-600 text-white font-semibold'>
+                        Register
+                    </button>
                 </li>
 
                 
 
             { dropdown ?
-                <div className="md:hidden text-[22px] cursor-pointer  ml-[6px] text-blue-500" onClick={showDropdown}>
+                <div className="lg:hidden text-[22px] cursor-pointer  ml-[6px] text-blue-500" onClick={showDropdown}>
                     <MdClose /> 
                 </div>
             :
-                <div className="md:hidden text-[22px] cursor-pointer text-blue-500 ml-[6px]" onClick={showDropdown}>
+                <div className="lg:hidden text-[22px] cursor-pointer text-blue-500 ml-[6px]" onClick={showDropdown}>
                     <HiMenuAlt3 /> 
                 </div>
             }
@@ -44,13 +49,18 @@ const Headerr = () => {
 
         { dropdown ? 
 
-            <div className="lg:hidden w-full h-[100vh] absolute top-[71px] bg-white transition ease-in-out duration-100 " onClick={showDropdown}>
+            <div className="lg:hidden w-full h-[100vh] absolute top-[71px] bg-white transition ease-in-out duration-100  " onClick={showDropdown}>
                 <div className="w-full h-[320px]  flex flex-col pl-[15px] sm:pl-[35px] pt-[25px] gap-4 text-[#1f2035]">
                     <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>Home</ol>
                     <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>About</ol>
-                    <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>News</ol>
                     <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>Speakers</ol>
+                    <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>Panelist</ol>
+                    <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>News</ol>
                     <ol className='text-blue-600 hover:text-orange-500 cursor-pointer font-semibold'>Sponsors</ol>
+
+                    <button className='px-3 py-2 w-[120px] bg-orange-400 border-none hover:bg-orange-600 text-white font-semibold'>
+                        Register
+                    </button>
                 </div>
             </div>
         :

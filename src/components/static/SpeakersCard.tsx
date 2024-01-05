@@ -10,7 +10,7 @@ interface iSpeakerCard {
 
 const SpeakersCard:React.FC<iSpeakerCard> = ({speakerImage, speakerInfo, speakerPosition, speakerName}) => {
   return (
-    <div className='w-[270px] h-[400px flex flex-col justify-between items-center pb-[25px rounded shadow-md overflow-hidden font-mont mb-[25px] ml-[20px sm:ml-[35px] lg:ml-[20px] pb-[20px]'>
+    <div className='w-[270px] lg:w-[250px] min-h-[485px] flex flex-col justify-between items-center pb-[25px rounded shadow-md overflow-hidden font-mont mb-[25px] ml-[20px sm:ml-[30px] lg:ml-[20px] pb-[20px]'>
         
         <div className='h-[55%] rounded-none '>
             <img className='h-[100%] w-full' src={speakerImage} alt="speaker" />
