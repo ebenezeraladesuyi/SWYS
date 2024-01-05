@@ -17,6 +17,10 @@ const Footerr = () => {
                 <h5 className="text-white text-[11px] mb-[5px] md:text-[13px]  font-semibold">DEPUTY SPEAKER | SOUTHWEST YOUTH PARLIAMENT</h5>
             </div>
 
+            <hr className="border-[1px] border-white w-full" />
+
+            <h5 className="text-white font-semibold text-[12px]">All Right Reserved. C. 2023. Southwest Youth Summit</h5>
+
         </div>
     </div>
   )
