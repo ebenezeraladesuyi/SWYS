@@ -10,7 +10,8 @@ export default {
         mont : ['Montserrat', 'sans-serif']
       },
       backgroundImage: {
-        'hero-img' : "url('/src/assets/images/DSC_5350.jpg')"
+        'hero-img' : "url('/src/assets/images/DSC_5350.jpg')",
+        'reg-bg' : "url('/src/assets/images/DSC_5221.jpg')"
       }
     },
   },

@@ -4,6 +4,7 @@ import { AboutCard } from "../../components"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import SlideInComponent from "../../components/static/slideIn/SlideIn";
 
 const About = () => {
 
@@ -47,7 +48,9 @@ const About = () => {
 
 
   return (
-    <div className="w-full flex justify-center items-center mb-[30px]">
+    <>
+    <SlideInComponent>
+    <div id="about" className="w-full flex justify-center items-center mb-[30px]">
         <div className="w-[85%]">
             <Slider {...settings}>
                 <AboutCard 
@@ -77,6 +80,8 @@ const About = () => {
 
         </div>
     </div>
+    </SlideInComponent>
+    </>
   )
 }
 
