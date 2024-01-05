@@ -19,7 +19,7 @@ const Footerr = () => {
 
             <hr className="border-[1px] border-white w-full" />
 
-            <h5 className="text-white font-semibold text-[12px]">All Right Reserved. C. 2023. Southwest Youth Summit</h5>
+            <h5 className="text-white font-semibold text-[11px]">All Right Reserved. C. 2023. <br/>Southwest Youth Summit</h5>
 
         </div>
     </div>
