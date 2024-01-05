@@ -1,18 +1,18 @@
 // import React from 'react'   
 
 
-import speaker1 from "../../assets/images/DSC_5483.jpg"
+import speaker1 from "../../assets/guests/Speaker Single Picture.jpg"
 
 const Speakers = () => {
   return (
     <div id="speaker" className="w-full h-[100vh  flex justify-center items-center font-mont bg-gray-100 bg-center bg-cover relative py-[30px] md:pt-[45px]">
         <div className="w-[85%] flex flex-col md:flex-row justify-center items-cente md:justify-between ">
-            <div className="border-[6px] border-[#00a4f2] rounded h-[300px] flex items-center justify-center  md:w-[45%] lg:w-[30%] md:mt-[40px] ">
-                <img className="w-ful h-full self-center " src={speaker1} alt="speaker" />
+            <div className="border-[6px] border-[#00a4f2] rounded h-[370px] flex items-center justify-center  md:w-[45%] lg:w-[30%] md:mt-[40px] ">
+                <img className="w-full h-full self-center " src={speaker1} alt="speaker" />
             </div>
 
             <div className="mt-[20px] md:mt-0 md:w-[50%] lg:w-[65%]">
-                <h5 className="font-semibold text-center md:text-left mb-[10px] text-[#00a4f2] animate-bounce lg:text-[22px]">PROFILE</h5>
+                <h5 className="font-semibold text-center md:text-left mb-[10px] text-[#00a4f2] animate-bounce lg:text-[22px]">SPEAKER'S PROFILE</h5>
                 <div className="text-[10px] font-semibold lg:text-[11px] text-justify flex flex-col gap-2">
                     <p>
                         <span className="text-[12px] lg:text-[14px]">HON. AYODELE OLAWANDE</span> hails from Ondo State, Southwest region of Nigeria. He completed his secondary school education in Ekiti State at Christ School and then proceeded to The Federal Polytechnic, Ado-Ekiti, then went to Federal University of Technology, Akure, for his degree.

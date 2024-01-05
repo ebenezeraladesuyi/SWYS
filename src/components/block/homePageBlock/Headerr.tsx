@@ -35,7 +35,8 @@ const Headerr = () => {
                         <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Panelists</ol>
                     </Link>
 
-                    <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>News</ol>
+                    <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Photos(SWYS 1.0)</ol>
+
                     <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Sponsors</ol>
 
                     <button className=' px-3 py-2 bg-orange-400 border-none hover:bg-orange-600 text-white font-semibold animate-pulse'>
@@ -76,7 +77,8 @@ const Headerr = () => {
                         <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Panelists</ol>
                     </Link>
 
-                    <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>News</ol>
+                    <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Photos(SWYS 1.0)</ol>
+
                     <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Sponsors</ol>
 
                     <button className='px-3 py-2 w-[120px] bg-orange-400 border-none hover:bg-orange-600 text-white font-semibold'>

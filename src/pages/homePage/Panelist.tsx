@@ -1,7 +1,17 @@
 // import React from 'react'
 
 import { SpeakersCard } from "../../components";
-import speaker1 from "../../assets/images/DSC_5483.jpg"
+import panelist from "../../assets/guests/Abiola Odetola.jpg";
+import panelist1 from "../../assets/guests/Adijat.jpg";
+import panelist2 from "../../assets/guests/Akin AKinwale.jpg";
+import panelist3 from "../../assets/guests/Henrich.jpg";
+import panelist4 from "../../assets/guests/Joshua Adedeji.jpg";
+import panelist5 from "../../assets/guests/Morayo Brown.jpg";
+import panelist6 from "../../assets/guests/Moremi Ojudu.jpg";
+import panelist7 from "../../assets/guests/Rinsola.jpg";
+import panelist8 from "../../assets/guests/Tosin Durodola.jpg";
+import panelist9 from "../../assets/guests/moderator.jpg";
+// import panelist10 from "../../assets/guests/";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -59,38 +69,72 @@ const Panelist = () => {
                 <Slider {...settings}>
 
                     <SpeakersCard 
-                        speakerImage={speaker1}
-                        speakerName="HON. OLUMIDE FASUBA"
-                        speakerPosition="Special Adviser to the President on Youth Affairs"
-                        speakerInfo="The youths of the six states that make up the Southwest region of Nigeria. Upon proper finace, we look forward to receiving in attendance 50 delegates from each state with, atleast, 5 of thes 50 delegates comig from each of the Local Government that makes up the state. We equally look forward to extending invitations to the leaders of the relevant state youth formations within Southwest such as NYCN, NYC and  NANS."
+                        speakerImage={panelist}
+                        speakerName="HON. ABIOLA ODETOLA"
+                        speakerPosition=""
+                        speakerInfo=""
                     />
 
                     <SpeakersCard 
-                        speakerImage={speaker1}
-                        speakerName="HON. OLUMIDE FASUBA"
-                        speakerPosition="Special Adviser to the President on Youth Affairs"
-                        speakerInfo="The youths of the six states that make up the Southwest region of Nigeria. Upon proper finace, we look forward to receiving in attendance 50 delegates from each state with, atleast, 5 of thes 50 delegates comig from each of the Local Government that makes up the state. We equally look forward to extending invitations to the leaders of the relevant state youth formations within Southwest such as NYCN, NYC and  NANS."
+                        speakerImage={panelist1}
+                        speakerName="HON. ADIJAT ADELEYE"
+                        speakerPosition="Ogun State, Commissioner for Women Affairs and Social Development"
+                        speakerInfo=""
                     />
 
                     <SpeakersCard 
-                        speakerImage={speaker1}
-                        speakerName="HON. OLUMIDE FASUBA"
-                        speakerPosition="Special Adviser to the President on Youth Affairs"
-                        speakerInfo="The youths of the six states that make up the Southwest region of Nigeria. Upon proper finace, we look forward to receiving in attendance 50 delegates from each state with, atleast, 5 of thes 50 delegates comig from each of the Local Government that makes up the state. We equally look forward to extending invitations to the leaders of the relevant state youth formations within Southwest such as NYCN, NYC and  NANS."
+                        speakerImage={panelist2}
+                        speakerName="AKIN AKINWALE"
+                        speakerPosition="Digicom and New Media Expert"
+                        speakerInfo=""
                     />
 
                     <SpeakersCard 
-                        speakerImage={speaker1}
-                        speakerName="HON. OLUMIDE FASUBA"
-                        speakerPosition="Special Adviser to the President on Youth Affairs"
-                        speakerInfo="The youths of the six states that make up the Southwest region of Nigeria. Upon proper finace, we look forward to receiving in attendance 50 delegates from each state with, atleast, 5 of thes 50 delegates comig from each of the Local Government that makes up the state. We equally look forward to extending invitations to the leaders of the relevant state youth formations within Southwest such as NYCN, NYC and  NANS."
+                        speakerImage={panelist3}
+                        speakerName="ENGR. HENRICH BANKOLE KOMOLAFE"
+                        speakerPosition="MD, Akotex Group"
+                        speakerInfo=""
                     />
 
                     <SpeakersCard 
-                        speakerImage={speaker1}
-                        speakerName="HON. OLUMIDE FASUBA"
-                        speakerPosition="Special Adviser to the President on Youth Affairs"
-                        speakerInfo="The youths of the six states that make up the Southwest region of Nigeria. Upon proper finace, we look forward to receiving in attendance 50 delegates from each state with, atleast, 5 of thes 50 delegates comig from each of the Local Government that makes up the state. We equally look forward to extending invitations to the leaders of the relevant state youth formations within Southwest such as NYCN, NYC and  NANS."
+                        speakerImage={panelist4}
+                        speakerName="JOSHUA ADEDEJI"
+                        speakerPosition="Nigeria Country Lead, Innovate UK"
+                        speakerInfo=""
+                    />
+
+                    <SpeakersCard 
+                        speakerImage={panelist9}
+                        speakerName="RHODIYAT OGBARA Esq."
+                        speakerPosition="Moderator, First Panel Session"
+                        speakerInfo=""
+                    />
+
+                    <SpeakersCard 
+                        speakerImage={panelist5}
+                        speakerName="MORAYO AFOLABI-BROWN"
+                        speakerPosition="MD. TVCe Lagos State."
+                        speakerInfo=""
+                    />
+
+                    <SpeakersCard 
+                        speakerImage={panelist6}
+                        speakerName="Ms. MOREMI OJUDU"
+                        speakerPosition="SSA to the President on Community Engagement (SW)"
+                    />
+
+                    <SpeakersCard 
+                        speakerImage={panelist7}
+                        speakerName="Ms. RINSOLA ABIOLA"
+                        speakerPosition="SSA to the President on Citizenship and Leadership"
+                        speakerInfo=""
+                    />
+
+                    <SpeakersCard 
+                        speakerImage={panelist8}
+                        speakerName="TOSIN DUROTOLA ESq."
+                        speakerPosition="Moderator, Second Panel Session"
+                        speakerInfo=""
                     />
 
                 </Slider>
