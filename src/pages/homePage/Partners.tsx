@@ -10,6 +10,9 @@ import osun from "../../assets/partners/osun.jpg";
 import lagos from "../../assets/partners/lagos.jpeg";
 import ogun from "../../assets/partners/ogun.jpg"
 import volatic from "../../assets/partners/vola2.png";
+import dwc from "../../assets/partners/DWC.png";
+import fash from "../../assets/partners/Fashfam.png";
+
 
 const Partners = () => { const settings = {
     autoplay: true,
@@ -51,7 +54,7 @@ const Partners = () => { const settings = {
 
 
   return (
-    <div id="photos" className="w-full h-[100vh  flex justify-center items-center font-mont bg-center bg-cover relative py-[30px] md:pt-[45px]">
+    <div id="partners" className="w-full h-[100vh  flex justify-center items-center font-mont bg-center bg-cover relative py-[30px] md:pt-[45px]">
         
         <div className="w-[85%] flex flex-col justify-center items-cente md:justify-between ">
 
@@ -93,6 +96,12 @@ const Partners = () => { const settings = {
                     />
                     <PartnersCard 
                         pics={volatic}
+                    />
+                    <PartnersCard 
+                        pics={dwc}
+                    />
+                    <PartnersCard 
+                        pics={fash}
                     />
                 </Slider>
             </div>

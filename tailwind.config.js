@@ -11,7 +11,8 @@ export default {
       },
       backgroundImage: {
         'hero-img' : "url('/src/assets/images/DSC_5350.jpg')",
-        'reg-bg' : "url('/src/assets/images/DSC_5221.jpg')"
+        'reg-bg' : "url('/src/assets/images/DSC_5221.jpg')",
+        'donate-bg' : "url('/src/assets/images/DSC_5299.jpg')"
       }
     },
   },

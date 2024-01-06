@@ -13,6 +13,9 @@ const Speakers = () => {
 
             <div className="mt-[20px] md:mt-0 md:w-[50%] lg:w-[65%]">
                 <h5 className="font-semibold text-center md:text-left mb-[10px] text-[#00a4f2] animate-bounce lg:text-[22px]">SPEAKER'S PROFILE</h5>
+                <h5 className="font-semibold text-center md:text-left mb-[5px] text-[#00a4f2] lg:text-[19px]">HON. AYODELE OLAWANDE</h5>
+                <h5 className="font-semibold text-center md:text-left mb-[10px] text-[#00a4f2] text-[12px] lg:text-[15px]">Minister of State for Youth Development of the Federal Republic of Nigeria.</h5>
+
                 <div className="text-[10px] font-semibold lg:text-[11px] text-justify flex flex-col gap-2">
                     <p>
                         <span className="text-[12px] lg:text-[14px]">HON. AYODELE OLAWANDE</span> hails from Ondo State, Southwest region of Nigeria. He completed his secondary school education in Ekiti State at Christ School and then proceeded to The Federal Polytechnic, Ado-Ekiti, then went to Federal University of Technology, Akure, for his degree.

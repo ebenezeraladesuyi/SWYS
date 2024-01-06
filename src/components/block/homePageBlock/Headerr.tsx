@@ -35,9 +35,17 @@ const Headerr = () => {
                         <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Panelists</ol>
                     </Link>
 
-                    <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Photos(SWYS 1.0)</ol>
+                    <Link offset={-100} smooth={true} duration={500} to="photos">
+                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Photos(SWYS 1.0)</ol>
+                    </Link>
 
-                    <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Sponsors</ol>
+                    <Link offset={-100} smooth={true} duration={500} to="partners">
+                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Partners</ol>
+                    </Link>
+
+                    <Link offset={-100} smooth={true} duration={500} to="donate">
+                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Donate</ol>
+                    </Link>
 
                     <button className=' px-3 py-2 bg-orange-400 border-none hover:bg-orange-600 text-white font-semibold animate-pulse'>
                         Register
@@ -66,20 +74,28 @@ const Headerr = () => {
                     <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Home</ol>
 
                     <Link offset={-100} smooth={true} duration={500} to="about">
-                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>About</ol>
+                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold' onClick={showDropdown}>About</ol>
                     </Link>
 
                     <Link offset={-100} smooth={true} duration={500} to="speaker">
-                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Speaker</ol>
+                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold' onClick={showDropdown}>Speaker</ol>
                     </Link>
 
                     <Link offset={-100} smooth={true} duration={500} to="panelists">
-                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Panelists</ol>
+                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold' onClick={showDropdown}>Panelists</ol>
                     </Link>
 
-                    <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Photos(SWYS 1.0)</ol>
+                    <Link offset={-100} smooth={true} duration={500} to="photos">
+                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold' onClick={showDropdown}>Photos(SWYS 1.0)</ol>
+                    </Link>
 
-                    <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Sponsors</ol>
+                    <Link offset={-100} smooth={true} duration={500} to="partners">
+                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold' onClick={showDropdown}>Partners</ol>
+                    </Link>
+
+                    <Link offset={-100} smooth={true} duration={500} to="donate">
+                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold' onClick={showDropdown}>Donate</ol>
+                    </Link>
 
                     <button className='px-3 py-2 w-[120px] bg-orange-400 border-none hover:bg-orange-600 text-white font-semibold'>
                         Register

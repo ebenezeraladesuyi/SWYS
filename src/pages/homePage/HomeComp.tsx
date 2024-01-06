@@ -2,6 +2,8 @@
 
 // import { Footerr } from "../../components"
 import About from "./About"
+import Commissioners from "./Commissioners"
+import Donate from "./Donate"
 import Hero from "./Hero"
 import Panelist from "./Panelist"
 import Partners from "./Partners"
@@ -18,7 +20,9 @@ const HomeComp = () => {
         <Panelist />
         <Register />
         <Photos />
+        <Commissioners />
         <Partners />
+        <Donate />
     </div>
   )
 }
