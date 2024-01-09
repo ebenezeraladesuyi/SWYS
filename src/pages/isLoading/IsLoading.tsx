@@ -12,9 +12,9 @@ const IsLoading = () => {
 
         <img src={logo} className="w-[80px]" alt="Logo" />
 
-        <BallTriangle color="#0a4757" width="80" visible={true} />
+        <BallTriangle color="#00a4f2" width="80" visible={true} />
 
-        <i style={{fontSize:"17px", color:"#0a4757", marginTop:"40px"}}>Loading...</i>
+        <i style={{fontSize:"17px", color:"#00a4f2", marginTop:"40px"}}>Loading...</i>
 
     </div>
   )

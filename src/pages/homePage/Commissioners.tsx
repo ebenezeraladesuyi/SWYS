@@ -53,7 +53,7 @@ const Commissioners = () => {
             <h5 className="font-semibold text-[#00a4f2] text-[16px] md:text-[26px] lg:text-[27px] mb-[20px] mt-[10px] border-b-[3px border-b-[#00a4f2] animate-bounce text-center">MEET YOUR COMMISSIONERS</h5>
 
             <div className="flex flex-col gap-3">
-                <div className='flex flex-col gap-3 transition-transform duration-300 ease-in-out delay-300'>
+                <div className='flex flex-col gap-3 transition-all duration-300 ease-in-out delay-100'>
                     <div className="flex gap-3 items-center bg-[#00a4f2] py-2 px-1">
                         {show ?
                             <div className='text-white' onClick={showDrop}>
@@ -68,7 +68,7 @@ const Commissioners = () => {
                     </div>
 
                     {show ?
-                        <div className='w-[270px] h-[340px] bg-white rounded-md pb-[20px] transition-transform duration-300 ease-in-out delay-300'>
+                        <div className='w-[270px] h-[340px] bg-white rounded-md pb-[20px] transition-all duration-300 ease-in-out delay-300'>
                             <img className='w-full h-[75%' src={com1} alt="" />
 
                             <h5 className='text-[#00a4f2] font-semibold text-[14px] text-center mt-[6px]'>HON. ADESOLA GOLD ADEDAYO</h5>

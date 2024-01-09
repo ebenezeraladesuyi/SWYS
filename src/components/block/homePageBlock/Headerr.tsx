@@ -3,6 +3,7 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import logo from "../../../assets/images/logo.png";
 import { Link } from 'react-scroll';
+import { NavLink } from 'react-router-dom';
 
 const Headerr = () => {
 
@@ -97,9 +98,11 @@ const Headerr = () => {
                         <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold' onClick={showDropdown}>Donate</ol>
                     </Link>
 
-                    <button className='px-3 py-2 w-[120px] bg-orange-400 border-none hover:bg-orange-600 text-white font-semibold'>
-                        Register
-                    </button>
+                    <NavLink to="/registerattendee">
+                        <button className='px-3 py-2 w-[120px] bg-orange-400 border-none hover:bg-orange-600 text-white font-semibold'>
+                            Register
+                        </button>
+                    </NavLink>
                 </div>
             </div>
         :
