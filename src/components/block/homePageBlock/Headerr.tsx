@@ -48,9 +48,11 @@ const Headerr = () => {
                         <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Donate</ol>
                     </Link>
 
-                    <button className=' px-3 py-2 bg-orange-400 border-none hover:bg-orange-600 text-white font-semibold animate-pulse'>
-                        Register
-                    </button>
+                    <NavLink to="/registerattendee">
+                        <button className=' px-3 py-2 bg-orange-400 border-none hover:bg-orange-600 text-white font-semibold animate-pulse'>
+                            Register
+                        </button>
+                    </NavLink>
                 </li>
 
                 

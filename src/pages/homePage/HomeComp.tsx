@@ -21,8 +21,8 @@ const HomeComp = () => {
         <Register />
         <Photos />
         <Commissioners />
-        <Partners />
         <Donate />
+        <Partners />
     </div>
   )
 }

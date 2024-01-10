@@ -6,7 +6,7 @@ import com2 from "../../assets/com/HON MOBOLAJI.png";
 import com3 from "../../assets/com/HON OLAGUNJU MOSHOOD (2).png";
 import com4 from "../../assets/com/HON WASILAT ADEFEMI.png";
 import com5 from "../../assets/com/HON WASIU ISIAKA.png";
-// import com6 from "../../assets/com/Hon Kafilat Ogbara.png";
+import com6 from "../../assets/com/Hon. Bamidele Ologun.png";
 
 const Commissioners = () => {
 
@@ -97,7 +97,7 @@ const Commissioners = () => {
 
                     {show2 ?
                         <div className='w-[270px] h-[340px] bg-white rounded-md pb-[20px] transition-transform duration-300 ease-in-out delay-300'>
-                            <img className='w-full h-[75%' src={com1} alt="" />
+                            <img className='w-full h-[75%' src={com6} alt="" />
 
                             <h5 className='text-[#00a4f2] font-semibold text-[14px] text-center mt-[6px]'>HON. BAMIDELE OLOGUN</h5>
                             <h5 className='text-[#00a4f2] font-semibold text-[12px] text-center mt-[px]'>Commissioner for  Youth and Sports(Ondo State)</h5>
