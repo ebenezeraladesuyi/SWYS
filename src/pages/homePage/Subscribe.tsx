@@ -73,8 +73,8 @@ const Subscribe = () => {
 
   return (
     <div id="partners" className="w-full h-[100vh  flex justify-center items-center font-mont bg-center bg-cover relative py-[30px] md:pt-[45px]">
-        <div className="w-[85%] flex flex-col justify-center items-cente md:justify-between ">
-            <h5 className="md:w-[60%] lg:w-[50%] font-semibold text-[12px] text-[#00a4f2] mb-[10px]">Want more Information, Updates and News about the Southwest Politically, Economically, Socialy, Educationally? Then...</h5>
+        <div className="w-[85%] flex flex-col justify-center items-center md:justify-between ">
+            <h5 className="md:w-[60%] lg:w-[50%] font-semibold text-[12px] text-[#00a4f2] mb-[10px] text-center">Want more Information, Updates and News about the Southwest Politically, Economically, Socialy, Educationally? Then...</h5>
 
             <h5 className="font-semibold text-[#00a4f2] mb-[10px]">Subscribe to Our Newsletter</h5>
 
@@ -82,14 +82,14 @@ const Subscribe = () => {
 
 
             { info ? 
-                <div className="mt-[20px]">
-                    <form onSubmit={submit} className="flex flex-col gap-3" action="">
+                <div className="mt-[20px] flex flex-col items-center justify-center">
+                    <form onSubmit={submit} className=" flex flex-col items-center justify-cente gap-3" action="">
                         <input type="text" placeholder="FullName" className="w-[280px] md:w-[350px] lg:w-[500px] h-[38px] text-[13px] border-[#00a4f2] rounded-md border-[1px] px-3 outline-none"
                         {...register("fullName")}
                          />
                          <p className="text-[8px] mt-[-10px] mb-[5px]">{errors?.fullName && errors?.fullName.message}</p>
 
-                        <input type="email" placeholder="Email" className="w-[280px]] md:w-[350px] lg:w-[500px] h-[38px] text-[13px] border-[#00a4f2] rounded-md border-[1px] px-3 outline-none" 
+                        <input type="email" placeholder="Email" className="w-[280px] md:w-[350px] lg:w-[500px] h-[38px] text-[13px] border-[#00a4f2] rounded-md border-[1px] px-3 outline-none" 
                         {...register("email")}
                         />
                         <p className="text-[8px] mt-[-10px] mb-[5px]">{errors?.email && errors?.email.message}</p>
