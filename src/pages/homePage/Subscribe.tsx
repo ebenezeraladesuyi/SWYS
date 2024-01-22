@@ -76,7 +76,7 @@ const Subscribe = () => {
         <div className="w-[85%] flex flex-col justify-center items-cente md:justify-between ">
             <h5 className="font-semibold text-[12px] text-[#00a4f2] mb-[10px]">Want get more Information, Updates and News about the Southwest Politically, Economically, Socialy, Educationally? Then...</h5>
 
-            <h5 className="font-semibold text-[#00a4f2] mb-[10px]">Subscribe to Our Newletter</h5>
+            <h5 className="font-semibold text-[#00a4f2] mb-[10px]">Subscribe to Our Newsletter</h5>
 
             <button className='w-[120px] h- bg-transparent rounded-[25px] text-[#00a4f2] border-[1px] border-[#00a4f2] hover:bg-[#00a4f2] hover:text-white hover:border-none hover:outline-none' onClick={showInfo}>Subscribe</button>
 
