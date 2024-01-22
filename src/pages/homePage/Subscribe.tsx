@@ -74,7 +74,7 @@ const Subscribe = () => {
   return (
     <div id="partners" className="w-full h-[100vh  flex justify-center items-center font-mont bg-center bg-cover relative py-[30px] md:pt-[45px]">
         <div className="w-[85%] flex flex-col justify-center items-cente md:justify-between ">
-            <h5 className="font-semibold text-[12px] text-[#00a4f2] mb-[10px]">Want get more Information, Updates and News about the Southwest Politically, Economically, Socialy, Educationally? Then...</h5>
+            <h5 className="font-semibold text-[12px] text-[#00a4f2] mb-[10px]">Want more Information, Updates and News about the Southwest Politically, Economically, Socialy, Educationally? Then...</h5>
 
             <h5 className="font-semibold text-[#00a4f2] mb-[10px]">Subscribe to Our Newsletter</h5>
 
