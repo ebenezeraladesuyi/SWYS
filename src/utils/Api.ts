@@ -1,4 +1,4 @@
-import { iSWYS } from "../types/Interface";
+import { iSWYS, iSubscribe } from "../types/Interface";
 import axios from "axios";
 
 export const url = "https://mfmyc-ado.onrender.com"
@@ -11,6 +11,18 @@ export const registerAttendee = async (data : iSWYS) => {
         return res.data
     })
     .catch((err) => {
+        return err
+    })
+}
+
+
+// subscribe for newletter
+export const userSubscribe = async (data : iSubscribe) => {
+    return await axios.post(`${url}/subscribe/usersubscribe`, data)
+    .then((res) => {
+        return res.data
+    })
+    .catch((err)=> {
         return err
     })
 }

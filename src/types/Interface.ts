@@ -8,3 +8,8 @@ export interface iSWYS {
     occupation: string;
     educationalQualification: string;
   }
+
+  export interface iSubscribe {
+    fullName? : string,
+    email? : string,
+  }

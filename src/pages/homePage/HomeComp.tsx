@@ -10,6 +10,7 @@ import Partners from "./Partners"
 import Photos from "./Photos"
 import Register from "./Register"
 import Speakers from "./Speakers"
+import Subscribe from "./Subscribe"
 
 const HomeComp = () => {
   return (
@@ -22,6 +23,7 @@ const HomeComp = () => {
         <Photos />
         <Commissioners />
         <Donate />
+        <Subscribe />
         <Partners />
     </div>
   )
