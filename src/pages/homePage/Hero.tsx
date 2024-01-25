@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 
 const Hero = () => {
 
-    const targetDate = new Date('2024-01-26T00:22:00');
+    const targetDate = new Date('2024-01-26T10:00:00');
 
     const [scroll, setScroll] = React.useState(false);
 
