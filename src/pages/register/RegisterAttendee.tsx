@@ -11,7 +11,7 @@ import { useMutation } from "@tanstack/react-query";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import { DatasIsaLoading } from "../isLoading/DataIsLoading";
-import logo from "../../assets/images/logo.png";
+// import logo from "../../assets/images/logo.png";
 import { IoIosArrowBack } from "react-icons/io";
 
 
@@ -88,7 +88,7 @@ const RegisterAttendee = () => {
             </div>
             </NavLink>
 
-            <img src={logo} className="w-[100px] mb-[20px]" alt="" />
+            {/* <img src={logo} className="w-[100px] mb-[20px]" alt="" /> */}
 
             <form onSubmit={submit}  className="h-[90%] flex justify-around flex-col gap-2">
                 <input className="w-full h-[40px] p-[10px]  border-[1px] rounded outline-none text-[14px]" type="text" placeholder="Full Name" 
