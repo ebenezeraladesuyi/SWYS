@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="w-[85%] z-10 flex flex-col mt-[65px] md:mt-[60px] lg:mt-[70px]">
             <div className="w-full mb-[20px]">
                 <h2 className="text-white text-[35px] md:text-[45px] lg:text-[60px] text-center font-semibold leading-10 md:leading-[60px]">
-                    SOUTH WEST YOUTH SUMMIT 2.0
+                    SOUTH WEST YOUTH SUMMIT 3.0
                 </h2>
 
                 <h3 className="text-white text-[15px] md:text-[17px] lg:text-[20px] font-semibold text-center  lg:mt-[30px]">
@@ -36,11 +36,7 @@ const Hero = () => {
                             onInit={(typewriter: any) => {
                             typewriter
 
-                                .typeString("QUEST")
-                                .pauseFor(1500)
-                                .deleteAll()
-
-                                .typeString("FOR")
+                                .typeString("SHAPING")
                                 .pauseFor(1500)
                                 .deleteAll()
 
@@ -48,11 +44,11 @@ const Hero = () => {
                                 .pauseFor(1500)
                                 .deleteAll()
 
-                                .typeString("BEST")
+                                .typeString("FUTURE")
                                 .pauseFor(1500)
                                 .deleteAll()
 
-                                .typeString("QUEST FOR THE BEST")
+                                .typeString("SHAPING THE FUTURE")
                                 .pauseFor(1500)
                                 .deleteAll()
                                 .start();

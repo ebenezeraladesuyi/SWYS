@@ -5,7 +5,7 @@ import { Footerr, Headerr } from "../components/block";
 
 const HomePageLayout = () => {
   return (
-    <div>
+    <div className="bg-white">
 
         <Headerr />
 

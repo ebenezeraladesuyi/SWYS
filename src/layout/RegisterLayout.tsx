@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom"
 
 const RegisterLayout = () => {
   return (
-    <div>
+    <div className="bg-white">
         <Outlet />
     </div>
   )
