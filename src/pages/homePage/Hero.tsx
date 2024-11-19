@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 
 const Hero = () => {
 
-    const targetDate = new Date('2025-01-25T10:00:00');
+    const targetDate = new Date('2025-01-24T10:00:00');
 
     const [scroll, setScroll] = React.useState(false);
 
@@ -63,7 +63,7 @@ const Hero = () => {
             </div>
 
             <div className="text-[12px] lg:text-[14px] text-orange-300 text-center  mt-[20px] font-semibold">
-                <h6>Date: <span className="text-white text-[14px] lg:text-[16px]">Friday, 25th January, 2025</span></h6>
+                <h6>Date: <span className="text-white text-[14px] lg:text-[16px]">Friday, 24th January, 2025</span></h6>
                 <h6>Venue: <span className="text-white lg:text-[16px] text-[14px]">Osogbo Grammar School, Osogbo, Osun State.</span></h6>
                 <h6>Time: <span className="text-white lg:text-[16px] text-[14px]">9am Prompt</span></h6>
             </div>
