@@ -1,17 +1,25 @@
 // import React from 'react'
 
 import { SpeakersCard } from "../../components";
-import panelist from "../../assets/guests/Abiola Odetola.jpg";
-import panelist1 from "../../assets/guests/Adijat.jpg";
-import panelist2 from "../../assets/guests/Akin AKinwale.jpg";
-import panelist3 from "../../assets/guests/Henrich.jpg";
-import panelist4 from "../../assets/guests/Joshua Adedeji.jpg";
-import panelist5 from "../../assets/guests/Morayo Brown.jpg";
-import panelist6 from "../../assets/guests/Moremi Ojudu.jpg";
-import panelist7 from "../../assets/guests/Rinsola.jpg";
-import panelist8 from "../../assets/guests/Tosin Durodola.jpg";
-import panelist9 from "../../assets/guests/moderator.jpg";
-// import panelist10 from "../../assets/guests/";
+import panelist from "../../assets/swys2025/Red Crpet Host.jpg";
+import panelist1 from "../../assets/swys2025/PANELIST Host 1.jpg";
+import panelist2 from "../../assets/swys2025/PANELIST Host 2.jpg";
+import panelist3 from "../../assets/swys2025/PANELIST 7.jpg";
+import panelist4 from "../../assets/swys2025/PANELIST 6.jpg";
+import panelist5 from "../../assets/swys2025/PANELIST 5.jpg";
+import panelist6 from "../../assets/swys2025/PANELIST 4.jpg";
+import panelist7 from "../../assets/swys2025/PANELIST 3.jpg";
+import panelist8 from "../../assets/swys2025/PANELIST 2.jpg";
+import panelist9 from "../../assets/swys2025/PANELIST 1.jpg";
+// import panelist10 from "../../assets/swys2025/";
+import panelist11 from "../../assets/swys2025/Modertor Fireside Cht.jpg";
+import panelist12 from "../../assets/swys2025/Guest of Honour.jpg";
+import panelist13 from "../../assets/swys2025/Guest Comedian.jpg";
+import panelist14 from "../../assets/swys2025/Gbadebo.jpg";
+import panelist15 from "../../assets/swys2025/Fireside cht.jpg";
+import panelist16 from "../../assets/swys2025/Event Host.jpg";
+import panelist17 from "../../assets/swys2025/Event Co-Host.jpg";
+import panelist18 from "../../assets/swys2025/Breakout Session.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -70,70 +78,124 @@ const Panelist = () => {
 
                     <SpeakersCard 
                         speakerImage={panelist}
-                        speakerName="HON. ABIOLA ODETOLA"
-                        speakerPosition=""
+                        speakerName="Tomisin Kolawole"
+                        speakerPosition="Red Carpet Host"
                         speakerInfo=""
                     />
 
                     <SpeakersCard 
                         speakerImage={panelist1}
-                        speakerName="HON. ADIJAT ADELEYE"
-                        speakerPosition="Ogun State, Commissioner for Women Affairs and Social Development"
+                        speakerName="Ayobami T. Durodola Esq."
+                        speakerPosition="Lead Attorney, Royal Standard Attornys"
                         speakerInfo=""
                     />
 
                     <SpeakersCard 
                         speakerImage={panelist2}
-                        speakerName="AKIN AKINWALE"
-                        speakerPosition="Digicom and New Media Expert"
+                        speakerName="Deborah Soladoye"
+                        speakerPosition="OAP/Media Expert"
                         speakerInfo=""
                     />
 
                     <SpeakersCard 
                         speakerImage={panelist3}
-                        speakerName="ENGR. HENRICH BANKOLE KOMOLAFE"
-                        speakerPosition="MD, Akotex Group"
+                        speakerName="Hon. Adewumi Adeyemi"
+                        speakerPosition="Member, Osun State HOA."
                         speakerInfo=""
                     />
 
                     <SpeakersCard 
                         speakerImage={panelist4}
-                        speakerName="JOSHUA ADEDEJI"
-                        speakerPosition="Nigeria Country Lead, Innovate UK"
+                        speakerName="Hon. Dr. Abolarin K. Ajibade"
+                        speakerPosition="Member, Osun State HOA."
                         speakerInfo=""
                     />
 
                     <SpeakersCard 
                         speakerImage={panelist9}
-                        speakerName="RHODIYAT OGBARA Esq."
-                        speakerPosition="Moderator, First Panel Session"
+                        speakerName="Hon. Abiola Awoyeye"
+                        speakerPosition="Member, Osun State HOA."
                         speakerInfo=""
                     />
 
                     <SpeakersCard 
                         speakerImage={panelist5}
-                        speakerName="MORAYO AFOLABI-BROWN"
-                        speakerPosition="MD. TVCe Lagos State."
+                        speakerName="Monsurat Ololade"
+                        speakerPosition="Educator. Entrprenuer."
                         speakerInfo=""
                     />
 
                     <SpeakersCard 
                         speakerImage={panelist6}
-                        speakerName="Ms. MOREMI OJUDU"
-                        speakerPosition="SSA to the President on Community Engagement (SW)"
+                        speakerName="Dr. Samuel Anisulowo"
+                        speakerPosition="CEO FollyBea Nig. Ltd."
                     />
 
                     <SpeakersCard 
                         speakerImage={panelist7}
-                        speakerName="Ms. RINSOLA ABIOLA"
-                        speakerPosition="SSA to the President on Citizenship and Leadership"
+                        speakerName="Ewatomilola Emiola-Owoeye"
+                        speakerPosition="SA to Ondo State Gov. on Research & Documentation"
                         speakerInfo=""
                     />
 
                     <SpeakersCard 
                         speakerImage={panelist8}
+                        speakerName="Hon. Bamikola Omisore"
+                        speakerPosition="sA to Osun State Gov. on SDG & Multilateral Relations"
+                        speakerInfo=""
+                    />
+                    {/* <SpeakersCard 
+                        speakerImage={panelist10}
                         speakerName="TOSIN DUROTOLA ESq."
                         speakerPosition="Moderator, Second Panel Session"
+                        speakerInfo=""
+                    /> */}
+                    <SpeakersCard 
+                        speakerImage={panelist11}
+                        speakerName="Motolani Oyedeji"
+                        speakerPosition="Managing Partner, Danielle Chambers"
+                        speakerInfo=""
+                    />
+                    <SpeakersCard 
+                        speakerImage={panelist12}
+                        speakerName="Hon. Oriade A. Taofeek"
+                        speakerPosition="Forum of Senatorial Youth (National Sec.)"
+                        speakerInfo=""
+                    />
+                    <SpeakersCard 
+                        speakerImage={panelist13}
+                        speakerName="Prolific Hephta"
+                        speakerPosition="Guest Comedian"
+                        speakerInfo=""
+                    />
+                    <SpeakersCard 
+                        speakerImage={panelist14}
+                        speakerName="Gbadebo Rhodes-Vivour"
+                        speakerPosition="L.P. Gov. Candidate, Lagos State"
+                        speakerInfo=""
+                    />
+                    <SpeakersCard 
+                        speakerImage={panelist15}
+                        speakerName="Rt. Hon. Prince Akinyode A. Oyewusi"
+                        speakerPosition="Deputy Speaker, Osun State HOA"
+                        speakerInfo=""
+                    />
+                    <SpeakersCard 
+                        speakerImage={panelist16}
+                        speakerName="Muhammed Adisa Raji"
+                        speakerPosition="Event Host"
+                        speakerInfo=""
+                    />
+                    <SpeakersCard 
+                        speakerImage={panelist17}
+                        speakerName="DanWilliams"
+                        speakerPosition="Event Co-Host"
+                        speakerInfo=""
+                    />
+                    <SpeakersCard 
+                        speakerImage={panelist18}
+                        speakerName="Oluwaseun Oyekan-Nash."
+                        speakerPosition="Creative Director, TiwaDigi Hauze"
                         speakerInfo=""
                     />
 
