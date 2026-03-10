@@ -4,13 +4,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import PartnersCard from "../../components/static/PartnersCard";
 import ondo from "../../assets/partners/ondo.png";
-import ekiti from "../../assets/partners/ekiti.jpg";
+// import ekiti from "../../assets/partners/ekiti.jpg";
 import oyo from "../../assets/partners/oyo.png";
 import osun from "../../assets/partners/osun.jpg";
 import lagos from "../../assets/partners/lagos.jpeg";
-import ogun from "../../assets/partners/ogun.jpg"
+// import ogun from "../../assets/partners/ogun.jpg"
 import volatic from "../../assets/partners/vola2.png";
-import dwc from "../../assets/partners/DWC.png";
+import dwc from "../../assets/partners/DanWilliamsGlobal.png";
 import fash from "../../assets/partners/Fashfam.png";
 
 
@@ -70,15 +70,15 @@ const Partners = () => { const settings = {
                     <PartnersCard 
                         pics={oyo}
                     />
-                    <PartnersCard 
+                    {/* <PartnersCard 
                         pics={ekiti}
-                    />
+                    /> */}
                     <PartnersCard 
                         pics={osun}
                     />
-                    <PartnersCard 
+                    {/* <PartnersCard 
                         pics={ogun}
-                    />
+                    /> */}
                     <PartnersCard 
                         pics={lagos}
                     />
@@ -88,9 +88,9 @@ const Partners = () => { const settings = {
                     <PartnersCard 
                         pics={osun}
                     />
-                    <PartnersCard 
+                    {/* <PartnersCard 
                         pics={ogun}
-                    />
+                    /> */}
                     <PartnersCard 
                         pics={lagos}
                     />

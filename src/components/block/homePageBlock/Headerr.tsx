@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
-import logo from "../../../assets/images/logo.png";
+import logo from "../../../assets/images/2026Logo.png";
 import { Link } from 'react-scroll';
 import { NavLink } from 'react-router-dom';
 
@@ -32,17 +32,17 @@ const Headerr = () => {
                         <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Speaker</ol>
                     </Link>
 
-                    <Link offset={-100} smooth={true} duration={500} to="panelists">
+                    {/* <Link offset={-100} smooth={true} duration={500} to="panelists">
                         <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Panelists</ol>
-                    </Link>
+                    </Link> */}
 
                     <Link offset={-100} smooth={true} duration={500} to="photos">
                         <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Photos(SWYS 1.0)</ol>
                     </Link>
 
-                    <Link offset={-100} smooth={true} duration={500} to="partners">
+                    {/* <Link offset={-100} smooth={true} duration={500} to="partners">
                         <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Partners</ol>
-                    </Link>
+                    </Link> */}
 
                     <Link offset={-100} smooth={true} duration={500} to="donate">
                         <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Donate</ol>

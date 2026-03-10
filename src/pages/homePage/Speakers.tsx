@@ -1,7 +1,7 @@
 // import React from 'react'   
 
 
-import speaker1 from "../../assets/guests/FLYER-01.jpg"
+import speaker1 from "../../assets/guests/speaker.jpeg"
 
 const Speakers = () => {
   return (
@@ -13,18 +13,19 @@ const Speakers = () => {
 
             <div className="mt-[20px] md:mt-0 md:w-[50%] lg:w-[65%]">
                 <h5 className="font-semibold text-center md:text-left mb-[10px] text-[#00a4f2] animate-bounce lg:text-[22px]">SPEAKER'S PROFILE</h5>
-                <h5 className="font-semibold text-center md:text-left mb-[5px] text-[#00a4f2] lg:text-[19px]">BARR. PELUMI OLAJENGBESI</h5>
-                <h5 className="font-semibold text-center md:text-left mb-[10px] text-[#00a4f2] text-[12px] lg:text-[15px]">Principal Manager, LAW CORRIDOR</h5>
+                <h5 className="font-semibold text-center md:text-left mb-[5px] text-[#00a4f2] lg:text-[19px]">COMING SOON!</h5>
+                {/* <h5 className="font-semibold text-center md:text-left mb-[5px] text-[#00a4f2] lg:text-[19px]">BARR. PELUMI OLAJENGBESI</h5> */}
+                {/* <h5 className="font-semibold text-center md:text-left mb-[10px] text-[#00a4f2] text-[12px] lg:text-[15px]">Principal Manager, LAW CORRIDOR</h5> */}
 
                 <div className="text-[12px] font-semibold lg:text-[14px] text-justify flex flex-col gap-2">
                     <p>
-                        <span className="text-[12px] lg:text-[14px]">Barr. Pelumi Olajengbasi</span> was born in Zaria, Kaduna State. He attended Manuwa Memorial Grammar School Iju Odo, and Holy Flocks of Christ Secondary School, Ondo State. He proceeded to College of Education in Ikere, Ekiti State where he earned National Certificate in Education before proceeding to the University of Abuja where he obtained a Bachelor's Degree in Law and served as the President of the Student Union Government.
+                        {/* <span className="text-[12px] lg:text-[14px]">Barr. Pelumi Olajengbasi</span> was born in Zaria, Kaduna State. He attended Manuwa Memorial Grammar School Iju Odo, and Holy Flocks of Christ Secondary School, Ondo State. He proceeded to College of Education in Ikere, Ekiti State where he earned National Certificate in Education before proceeding to the University of Abuja where he obtained a Bachelor's Degree in Law and served as the President of the Student Union Government. */}
                     </p>
                     <p>
-                        In 2016, he was called to the Nigerian Bar as a Barrister and Solicitor of the Supreme Court of the Federal Republic of Nigeria after completing his law school program in the Lagos Law School Campus, Nigeria. He began his legal career under the mentorship of renowned lawyer, Dr. Kayode Ajulo of Kayode Ajulo Castle of Law. In 2016, he founded a private practice, Pelumi Olajengbesi & Co., and later Co-founder Law Corridor and sits on the board and trusteeship of several civil society organizations. He remained active in the political scene as a public commentator and columnist
+                        {/* In 2016, he was called to the Nigerian Bar as a Barrister and Solicitor of the Supreme Court of the Federal Republic of Nigeria after completing his law school program in the Lagos Law School Campus, Nigeria. He began his legal career under the mentorship of renowned lawyer, Dr. Kayode Ajulo of Kayode Ajulo Castle of Law. In 2016, he founded a private practice, Pelumi Olajengbesi & Co., and later Co-founder Law Corridor and sits on the board and trusteeship of several civil society organizations. He remained active in the political scene as a public commentator and columnist */}
                     </p>
                     <p>
-                        Pelumi Olajengbesi is known as a human rights activist. In 2021, he was counsel to the Yoruba Nation Activists and its Leader Chief Sunday Adeyemo (Sunday Igboho) against the Nigeria Department of State Services and secured the release of all activists arrested and detained by the Federal Government of Nigeria on their trial for terrorism. He also involved in several right issues including gender based violence and loan shark debts.
+                        {/* Pelumi Olajengbesi is known as a human rights activist. In 2021, he was counsel to the Yoruba Nation Activists and its Leader Chief Sunday Adeyemo (Sunday Igboho) against the Nigeria Department of State Services and secured the release of all activists arrested and detained by the Federal Government of Nigeria on their trial for terrorism. He also involved in several right issues including gender based violence and loan shark debts. */}
                     </p>
                     {/* <p>
                         He worked relentlessly in this role to engage young people in the political process, urging them to express their concerns and actively participate in determining the Nation's future.
