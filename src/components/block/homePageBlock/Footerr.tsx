@@ -1,5 +1,7 @@
 // import React from 'react';
 import logo from "../../../assets/images/2026Logo.png";
+import fash from "../../../assets/images/fash.jpeg";
+
 
 const Footerr = () => {
   return (
@@ -10,6 +12,8 @@ const Footerr = () => {
             </div>
 
             <div>
+                <div className="mb-[20px] w-[300px] rounded-[20px"><img src={fash} className="rounded-[20px]" alt="" /></div>
+
                 <p className="text-white text-[9px] md:text-[11px] md:w-[70%] lg:w-[55%] text-justify mb-[10px]"><span className="text-[12px] font-semibold">AKINBIYI OLUMIDE FASUBA</span> is a dedicated youth advocate and social reformer with a passion for good governance and politics. Currently serving as the conener of the Southwest Youth Summit since 2022, leading strategic initiatives to unleash the potential of the youth in the Southwest region of Nigeria for socio-economic properity. A committed facilitator of platforms promoting peace, knowledge acquisition and mentorship for young individuals. Harnessing the transformative power of youth ideas and ambitions to contribute to positive change and progress in Nigeria.</p>
 
                 <h5 className="text-white text-[11px] mb-[5px] md:text-[13px]  font-semibold">CONVENER | SOUTHWEST YOUTH SUMMIT</h5>
