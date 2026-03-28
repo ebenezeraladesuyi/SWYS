@@ -6,8 +6,10 @@ import About from "./About"
 import Donate from "./Donate"
 import Hero from "./Hero"
 import Info from "./Info"
+import Panel from "./Panel"
 // import Panelist from "./Panelist"
 import Partners from "./Partners"
+import Photo from "./Photo"
 import Photos from "./Photos"
 import Register from "./Register"
 import Speakers from "./Speakers"
@@ -20,9 +22,10 @@ const HomeComp = () => {
         <About />
         <Info />
         <Speakers />
-        {/* <Panelist /> */}
+        <Panel />
         <Register />
         <Photos />
+        <Photo />
         {/* <Commissioners /> */}
         <Donate />
         <Subscribe />

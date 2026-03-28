@@ -37,7 +37,7 @@ const Headerr = () => {
                     </Link> */}
 
                     <Link offset={-100} smooth={true} duration={500} to="photos">
-                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Photos(SWYS 1.0)</ol>
+                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold'>Photos</ol>
                     </Link>
 
                     {/* <Link offset={-100} smooth={true} duration={500} to="partners">
@@ -89,7 +89,7 @@ const Headerr = () => {
                     </Link>
 
                     <Link offset={-100} smooth={true} duration={500} to="photos">
-                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold' onClick={showDropdown}>Photos(SWYS 1.0)</ol>
+                        <ol className='text-[#00a4f2] hover:text-orange-500 cursor-pointer font-semibold' onClick={showDropdown}>Photos</ol>
                     </Link>
 
                     <Link offset={-100} smooth={true} duration={500} to="partners">
