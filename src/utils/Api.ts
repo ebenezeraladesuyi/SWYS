@@ -15,6 +15,17 @@ export const registerAttendee = async (data : iSWYS) => {
     })
 }
 
+// getAllAttendee
+export const getAllAttendee = async () => {
+    return await axios.get(`${url}/swys/allregisteredattendee`)
+    .then((res) => {
+        return res.data
+    })
+    .catch((err) => {
+        return err
+    })
+}
+
 
 // subscribe for newletter
 export const userSubscribe = async (data : iSubscribe) => {
