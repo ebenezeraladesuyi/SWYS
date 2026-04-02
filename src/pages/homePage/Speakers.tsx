@@ -1,36 +1,36 @@
 // import React from 'react'   
 
 
-import speaker1 from "../../assets/guests/speaker.jpeg"
+import speaker from "../../assets/swys2026/speaker-26.jpg"
 
 const Speakers = () => {
   return (
     <div id="speaker" className="w-full h-[100vh  flex justify-center items-center font-mont bg-gray-100 bg-center bg-cover relative py-[30px] md:pt-[45px]">
         <div className="w-[85%] flex flex-col md:flex-row justify-center items-cente md:justify-between ">
             <div className="border-[6px] border-[#00a4f2] rounded h-[370px] flex items-center justify-center  md:w-[45%] lg:w-[30%] md:mt-[40px] ">
-                <img className="w-full h-full self-center " src={speaker1} alt="speaker" />
+                <img className="w-full h-full self-center " src={speaker} alt="speaker" />
             </div>
 
             <div className="mt-[20px] md:mt-0 md:w-[50%] lg:w-[65%]">
                 <h5 className="font-semibold text-center md:text-left mb-[10px] text-[#00a4f2] animate-bounce lg:text-[22px]">SPEAKER'S PROFILE</h5>
-                <h5 className="font-semibold text-center md:text-left mb-[5px] text-[#00a4f2] lg:text-[19px]">COMING SOON!</h5>
-                {/* <h5 className="font-semibold text-center md:text-left mb-[5px] text-[#00a4f2] lg:text-[19px]">BARR. PELUMI OLAJENGBESI</h5> */}
-                {/* <h5 className="font-semibold text-center md:text-left mb-[10px] text-[#00a4f2] text-[12px] lg:text-[15px]">Principal Manager, LAW CORRIDOR</h5> */}
+                {/* <h5 className="font-semibold text-center md:text-left mb-[5px] text-[#00a4f2] lg:text-[19px]">COMING SOON!</h5> */}
+                <h5 className="font-semibold text-center md:text-left mb-[5px] text-[#00a4f2] lg:text-[19px]">HON. ABIOLA MAKINDE</h5>
+                <h5 className="font-semibold text-center md:text-left mb-[10px] text-[#00a4f2] text-[12px] lg:text-[15px]">Member, House  of Representative, Ondo East/Ondo West Federal Constituency</h5>
 
                 <div className="text-[12px] font-semibold lg:text-[14px] text-justify flex flex-col gap-2">
                     <p>
-                        {/* <span className="text-[12px] lg:text-[14px]">Barr. Pelumi Olajengbasi</span> was born in Zaria, Kaduna State. He attended Manuwa Memorial Grammar School Iju Odo, and Holy Flocks of Christ Secondary School, Ondo State. He proceeded to College of Education in Ikere, Ekiti State where he earned National Certificate in Education before proceeding to the University of Abuja where he obtained a Bachelor's Degree in Law and served as the President of the Student Union Government. */}
+                        <span className="text-[12px] lg:text-[14px]">Hon. Abiola Peter Makinde</span> is a Nigerian politician and second-term member of the 10th National Assembly, representing Ondo East/Ondo West Federal Constituency under the APC. Known as the “Father of Empowerment,” he is recognized for his focus on grassroots development and education reform.
                     </p>
                     <p>
-                        {/* In 2016, he was called to the Nigerian Bar as a Barrister and Solicitor of the Supreme Court of the Federal Republic of Nigeria after completing his law school program in the Lagos Law School Campus, Nigeria. He began his legal career under the mentorship of renowned lawyer, Dr. Kayode Ajulo of Kayode Ajulo Castle of Law. In 2016, he founded a private practice, Pelumi Olajengbesi & Co., and later Co-founder Law Corridor and sits on the board and trusteeship of several civil society organizations. He remained active in the political scene as a public commentator and columnist */}
+                        Born on August 16, 1973, in Lagos, Makinde earned a National Diploma from Ondo State Polytechnic, a bachelor's in Computer Information Systems (2006) and a master's in Financial Management (2009) from the University of Maryland Global Campus, and a PhD in Management from Igbinedion University (2022).
                     </p>
                     <p>
-                        {/* Pelumi Olajengbesi is known as a human rights activist. In 2021, he was counsel to the Yoruba Nation Activists and its Leader Chief Sunday Adeyemo (Sunday Igboho) against the Nigeria Department of State Services and secured the release of all activists arrested and detained by the Federal Government of Nigeria on their trial for terrorism. He also involved in several right issues including gender based violence and loan shark debts. */}
+                        He began his political career as Caretaker Chairman of Ondo West Local Government (2013–2015), later winning a House of Representatives seat in 2019 under the ADC before joining the APC and being re-elected in 2023 with 68% of the vote. He currently chairs the House Committee on Human Rights.
+                    </p>
+                    <p>
+                        Makinde’s achievements include sponsoring the bill upgrading Adeyemi College of Education to a Federal University of Education, advocating for the N134 billion dualization of the Akure-Ondo-Ore Express Road, facilitating federal jobs for over 80 constituents, and sponsoring indigent students for overseas study.
                     </p>
                     {/* <p>
-                        He worked relentlessly in this role to engage young people in the political process, urging them to express their concerns and actively participate in determining the Nation's future.
-                    </p>
-                    <p>
                         He was an active youth mobilizer, especially for the ruling All Progressive Congress (APC) in Ondo State
                      </p>
                      <p>
