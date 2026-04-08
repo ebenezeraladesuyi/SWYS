@@ -213,7 +213,7 @@ const Hero = () => {
                     >
                         <FaClock className="text-[#f97316] text-xl md:text-2xl mb-1 md:mb-2 mx-auto" />
                         <h6 className="text-[#f97316] text-xs md:text-sm font-semibold">TIME</h6>
-                        <p className="text-white text-[11px] sm:text-xs md:text-sm lg:text-base">9:00 AM Prompt</p>
+                        <p className="text-white text-[11px] sm:text-xs md:text-sm lg:text-base">10:00 AM Prompt</p>
                     </motion.div>
                 </motion.div>
 

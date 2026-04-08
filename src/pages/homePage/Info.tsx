@@ -21,7 +21,7 @@ const Info = () => {
         {
             id: 1,
             title: "Date & Time",
-            icon: <FaCalendarAlt className="text-[#f97316] text-2xl md:text-3xl" />,
+            icon: <FaCalendarAlt className="text-[#f97316] hover:text-[#ffffff] text-2xl md:text-3xl" />,
             content: (
                 <div className="space-y-2">
                     <p className="text-[#333333] text-sm md:text-base flex items-center gap-2">
@@ -30,7 +30,7 @@ const Info = () => {
                     </p>
                     <p className="text-[#333333] text-sm md:text-base flex items-center gap-2">
                         <FaClock className="text-[#f97316] text-sm" />
-                        <span className="font-semibold">Time:</span> 9:00 AM Prompt
+                        <span className="font-semibold">Time:</span> 10:00 AM Prompt
                     </p>
                 </div>
             )
@@ -38,7 +38,7 @@ const Info = () => {
         {
             id: 2,
             title: "Venue",
-            icon: <FaMapMarkerAlt className="text-[#f97316] text-2xl md:text-3xl" />,
+            icon: <FaMapMarkerAlt className="text-[#f97316] hover:text-[#ffffff] text-2xl md:text-3xl" />,
             content: (
                 <p className="text-[#333333] text-sm md:text-base leading-relaxed">
                     <span className="font-semibold">The International Conference and Cultural Centre (The Dome),</span><br />
@@ -49,7 +49,7 @@ const Info = () => {
         {
             id: 3,
             title: "Theme",
-            icon: <FaLightbulb className="text-[#f97316] text-2xl md:text-3xl" />,
+            icon: <FaLightbulb className="text-[#f97316] hover:text-[#ffffff] text-2xl md:text-3xl" />,
             content: (
                 <p className="text-[#333333] text-sm md:text-base font-semibold italic">
                     "Driving Lasting Impact"
@@ -59,7 +59,7 @@ const Info = () => {
         {
             id: 4,
             title: "Expected Attendees",
-            icon: <FaUsers className="text-[#f97316] text-2xl md:text-3xl" />,
+            icon: <FaUsers className="text-[#f97316] hover:text-[#ffffff] text-2xl md:text-3xl" />,
             content: (
                 <div className="flex flex-wrap gap-2">
                     {[
@@ -85,7 +85,7 @@ const Info = () => {
         {
             id: 5,
             title: "Key Activities",
-            icon: <FaTasks className="text-[#f97316] text-2xl md:text-3xl" />,
+            icon: <FaTasks className="text-[#f97316]  hover:text-[#ffffff] text-2xl md:text-3xl" />,
             content: (
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     {[
@@ -183,7 +183,7 @@ const Info = () => {
                         >
                             {/* Card Header with Icon */}
                             <div className="flex items-center gap-3 mb-4">
-                                <div className="w-12 h-12 md:w-14 md:h-14 bg-[#f9731610] rounded-lg flex items-center justify-center group-hover:bg-[#f97316] transition-colors duration-300">
+                                <div className="w-12 h-12 md:w-14 md:h-14 bg-[#f9731610] rounded-lg flex items-center justify-center group-hover:bg-[#2c2b2b] transition-colors duration-300">
                                     <div className="group-hover:text-[#ffffff] transition-colors duration-300">
                                         {card.icon}
                                     </div>

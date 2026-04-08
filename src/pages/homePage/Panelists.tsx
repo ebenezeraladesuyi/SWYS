@@ -13,6 +13,7 @@ import pic17 from "../../assets/swys2026/17.jpg";
 import pic18 from "../../assets/swys2026/18.jpg";
 import pic19 from "../../assets/swys2026/19.jpg";
 import pic20 from "../../assets/swys2026/20.jpg";
+import pic22 from "../../assets/swys2026/22.jpeg";
 // import pic10 from "../../assets/swys2026/10.jpg";
 // import pic11 from "../../assets/swys2026/11.jpg";
 // import pic12 from "../../assets/swys2026/12.jpg";
@@ -29,6 +30,7 @@ const Panelists = () => {
         { id: 7, image: pic18 },
         { id: 8, image: pic19 },
         { id: 9, image: pic20 },
+        { id: 10, image: pic22 },
         // { id: 10, image: pic10, name: "Panelist 10" },
         // { id: 11, image: pic11, name: "Panelist 11" },
         // { id: 12, image: pic12, name: "Panelist 12" },
