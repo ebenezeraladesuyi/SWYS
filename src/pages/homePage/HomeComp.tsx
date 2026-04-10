@@ -15,6 +15,7 @@ import Photos from "./Photos"
 import Register from "./Register"
 import Speakers from "./Speakers"
 import Subscribe from "./Subscribe"
+import Training from "./Training"
 
 const HomeComp = () => {
   return (
@@ -22,6 +23,7 @@ const HomeComp = () => {
         <Hero />
         <About />
         <Info />
+        <Training />
         <Speakers />
         <Panel />
         <Panelists />
