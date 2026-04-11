@@ -150,7 +150,7 @@ const Info = () => {
                     transition={{ duration: 0.6 }}
                 >
                     <h2 className="text-[#f97316] text-sm md:text-base font-semibold tracking-[4px] mb-3">
-                        SUMMIT DETAILS
+                        4.0 SUMMIT DETAILS 
                     </h2>
                     <h3 className="text-[#1a1a1a] text-2xl md:text-3xl lg:text-4xl font-bold">
                         Everything You Need To Know

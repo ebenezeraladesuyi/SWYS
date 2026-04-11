@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-    const targetDate = new Date('2026-04-10T10:00:00');
+    const targetDate = new Date('2027-04-10T10:00:00');
     const [scroll, setScroll] = useState(false);
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
@@ -193,7 +193,10 @@ const Hero = () => {
                     >
                         <FaCalendarAlt className="text-[#f97316] text-xl md:text-2xl mb-1 md:mb-2 mx-auto" />
                         <h6 className="text-[#f97316] text-xs md:text-sm font-semibold">DATE</h6>
-                        <p className="text-white text-[11px] sm:text-xs md:text-sm lg:text-base">Friday, 10th April, 2026</p>
+                        <p className="text-white text-[11px] sm:text-xs md:text-sm lg:text-base">
+                            {/* Friday, 10th  */}
+                            April, 2027
+                        </p>
                     </motion.div>
 
                     <motion.div 
@@ -203,7 +206,10 @@ const Hero = () => {
                     >
                         <FaMapMarkerAlt className="text-[#f97316] text-xl md:text-2xl mb-1 md:mb-2 mx-auto" />
                         <h6 className="text-[#f97316] text-xs md:text-sm font-semibold">VENUE</h6>
-                        <p className="text-white text-[11px] sm:text-xs md:text-sm lg:text-base">THE DOME, Akure, Ondo State</p>
+                        <p className="text-white text-[11px] sm:text-xs md:text-sm lg:text-base">
+                            {/* THE DOME, Akure,  */}
+                            Lagos State
+                        </p>
                     </motion.div>
 
                     <motion.div 
