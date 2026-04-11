@@ -121,7 +121,7 @@ const Hero = () => {
                         </span>
                         <br className="hidden sm:block" />
                         <span className="text-[24px] sm:text-[30px] md:text-[40px] lg:text-[55px] xl:text-[70px]">
-                            YOUTH SUMMIT 4.0
+                            YOUTH SUMMIT 5.0
                         </span>
                     </h1>
                 </motion.div>
@@ -148,16 +148,20 @@ const Hero = () => {
                                 }}
                                 onInit={(typewriter: any) => {
                                     typewriter
-                                        .typeString('<span style="color: #f97316">DRIVING</span>')
+                                        // .typeString('<span style="color: #f97316">DRIVING</span>')
+                                        .typeString('<span style="color: #f97316">WILL BE</span>')
                                         .pauseFor(2000)
                                         .deleteAll(25)
-                                        .typeString(' <span style="color: #ffffff">LASTING</span>')
+                                        // .typeString(' <span style="color: #ffffff">LASTING</span>')
+                                        .typeString(' <span style="color: #ffffff">ANNOUNCED</span>')
                                         .pauseFor(2000)
                                         .deleteAll(25)
-                                        .typeString(' <span style="color: #ffffff">IMPACT</span>')
+                                        // .typeString(' <span style="color: #ffffff">IMPACT</span>')
+                                        .typeString(' <span style="color: #ffffff">SOON !</span>')
                                         .pauseFor(2000)
                                         .deleteAll(25)
-                                        .typeString('<span style="color: #ffffff">DRIVING LASTING IMPACT</span>')
+                                        // .typeString('<span style="color: #ffffff">DRIVING LASTING IMPACT</span>')
+                                        .typeString('<span style="color: #ffffff">(WILL BE ANNOUNCED SOON !!)</span>')
                                         .pauseFor(2000)
                                         .deleteAll(25)
                                         .start();
